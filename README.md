@@ -14,6 +14,7 @@ Comme décrit précédemment, l’architecture comprend trois PIO : un PIO d’e
 
 ## Quartus
 Dans Quartus, nous rédigeons le fichier de haut niveau light.vhd et utilisons l’outil Pin Planner pour effectuer l’attribution des broches conformément aux définitions fournies par la DE10-Lite. Ensuite, nous procédons à une compilation complète du design et, en l’absence d’erreurs, nous pouvons programmer l’architecture sur la carte de développement.
+![alt text](image/1.PNG)
 
 ## Nios-II
 À l’aide du terminal Nios II, nous commençons par exécuter la commande suivante pour générer le fichier BSP (Board Support Package) :  
