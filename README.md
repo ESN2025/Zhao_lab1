@@ -17,11 +17,11 @@ Dans Quartus, nous rédigeons le fichier de haut niveau light.vhd et utilisons l
 ![alt text](image/1.png)
 
 ## Nios-II
-À l’aide du terminal Nios II, nous commençons par exécuter la commande suivante pour générer le fichier BSP (Board Support Package) :  
+À l’aide du terminal Nios II, nous commençons par exécuter la commande suivante pour générer le fichier BSP (Board Support Package) :    
 ***nios2-bsp hal software/led_bsp unsaved.sopcinfo*** 
-Ensuite, nous utilisons la commande suivante pour créer le fichier Makefile :
-***nios2-app-generate-makefile -app-dir ./ --bsp-dir D:\\esn11\\software\\led_bsp --src-files main.c***
-***make download-elf*** 
+Ensuite, nous utilisons la commande suivante pour créer le fichier Makefile :  
+***nios2-app-generate-makefile -app-dir ./ --bsp-dir   D:\\esn11\\software\\led_bsp --src-files main.c***  
+***make download-elf***   
 Une fois ces étapes terminées, nous pouvons écrire un script en langage C, le compiler, puis le téléverser sur la carte de développement pour l’exécuter.
 
 ## Résultats
