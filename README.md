@@ -25,8 +25,6 @@ Une fois ces étapes terminées, nous pouvons écrire un script en langage C, le
 
 ## Résultats
 
-<video width="600" controls>
-  <source src="./lab1.mp4" type="video/mp4">
-</video>
+[click here to access the video](./lab1.mp4)
 
 ## Conclusion
