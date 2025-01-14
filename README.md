@@ -26,7 +26,7 @@ Une fois ces étapes terminées, nous pouvons écrire un script en langage C, le
 
 ## Résultats
 
-[click here to access the video](./lab1.mp4)
+https://github.com/user-attachments/assets/568af17c-b3e5-4cda-9a74-b8d3002deb21
 
 ## Conclusion
 À la fin de ce tutoriel, nous avons appris à décrire un système sur FPGA, à utiliser l’outil de planification des broches pour connecter des périphériques externes au FPGA, et à intégrer des blocs IP via le Platform Designer. De plus, nous avons utilisé la suite de bibliothèques HAL et une approche de co-conception matériel-logiciel pour écrire et exécuter un programme en langage C permettant de contrôler ces périphériques.
